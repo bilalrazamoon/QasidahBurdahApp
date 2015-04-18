@@ -255,7 +255,7 @@ ul.usefull-for li a.u-windows span:hover{
 	background: #F3F5F5;
 	padding: 4em 0 5em;
 }
-.notify-grid{
+/*.notify-grid{
 	text-align:center;
 }
 .notify-grid h3{
@@ -329,9 +329,9 @@ ul.usefull-for li a.u-windows span:hover{
 }
 .notify-grid input[type="submit"]:hover{
 	background:#A9AFAF;
-}
+}*/
 /*----- social-icons ----*/
-.social-icons{
+/*.social-icons{
 	text-align: center;
 	padding: 3em 0 2em;
 }
@@ -373,7 +373,7 @@ ul.usefull-for li a.u-windows span:hover{
 }
 .social-icons ul li a.pin span:hover{
 	background-position: -314px -42px;
-}
+}*/
 /*---- footer-links ----*/
 .footer-links{
 	margin-top:1em;
