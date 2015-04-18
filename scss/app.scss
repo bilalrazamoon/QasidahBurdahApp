@@ -1,0 +1,201 @@
+//bootstrap
+@import "./bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+//font-awesome
+@import "./bower_components/components-font-awesome/scss/font-awesome";
+//owl-slider
+@import "./bower_components/owl.carousel/src/scss/owl.carousel.scss";
+@import "./bower_components/owl.carousel/src/scss/owl.animate.scss";
+@import "./bower_components/owl.carousel/src/scss/owl.theme.default.scss";
+@import "./bower_components/owl.carousel/src/scss/theme.scss";
+//devices
+@import "./bower_components/devices.css/assets/scss/devices.scss";
+
+//app
+html, body{
+  font-family: 'Lato', sans-serif;
+  font-size: 100%;
+  background: #FFf;
+  font-weight:400;
+  a{
+    transition:0.5s all;
+    -webkit-transition:0.5s all;
+    -moz-transition:0.5s all;
+    -o-transition:0.5s all;
+    -ms-transition:0.5s all;
+  }
+  .owl-carousel{
+    .item{
+      margin: 3px;
+      img{
+
+        width:100%;
+        height: auto;
+      }
+    }
+  }
+  .owl-controls {
+    .owl-buttons {
+      div{
+        color: #98D361;
+        display: inline-block;
+        zoom: 1;
+        margin: 5px;
+        padding: 3px 10px;
+        font-size: 12px;
+        width: 13px;
+        height: 17px;
+      }
+    }
+  }
+  .header {
+    padding: 3em 0;
+    @include clearfix();
+    .header-right{
+      margin-top: 8em;
+      p{
+        color: #B9B9B9;
+        font-size: 1.6em;
+        font-weight: 400;
+        margin: 4em 0 2em;
+      }
+      a{
+        font-size: 3em;
+        color: #aaaaaa;
+        text-decoration: none;
+      }
+      .cs{
+        font-size: 2em;
+        .fa{
+          color: green;
+        }
+      }
+    }
+    .header-left{
+      margin: auto;
+    }
+  }
+  .fea-grids{
+    padding: 5em 0 4em;
+    background: #F8F8F9;
+    .fea-grids-left-grids{
+      margin: 1.5em 0;
+      .fea-grids-left-grid{
+        margin-bottom: 1.3em;
+        @include clearfix();
+        .fea-grids-left-grid-left{
+          float: left;
+          width: 10%;
+          margin-top: 1em;
+          .fa{
+            color: #b8b8b8;
+            font-size: 3.5em;
+            text-align: center;
+            display: block;
+          }
+        }
+      }
+    }
+  }
+  .notify{
+    background: #F3F5F5;
+    padding: 4em 0 5em;
+    .notify-grid{
+      text-align:center;
+      position:relative;
+      .fa{
+        color: #98D361;
+        font-size: 3em;
+      }
+      h3{
+        color:#8C9494;
+        font-size:2em;
+        font-weight:400;
+      }
+      p{
+        color:#686868;
+        font-size:1.4em;
+        font-weight:300;
+      }
+      form{
+        margin-top:2em;
+      }
+      input[type="text"]{
+        width: 70%;
+        padding: 0.9em;
+        border:2px solid #EEE;
+        font-size:1.1em;
+        color:#8C9494;
+        border-top-left-radius:3em;
+        border-bottom-left-radius:3em;
+        -webkit-border-top-left-radius:3em;
+        -webkit-border-bottom-left-radius:3em;
+        -moz-border-top-left-radius:3em;
+        -moz-border-bottom-left-radius:3em;
+        -o-border-top-left-radius:3em;
+        -o-border-bottom-left-radius:3em;
+        -ms-border-top-left-radius:3em;
+        -ms-border-bottom-left-radius:3em;
+        outline:none;
+        transition:border-color 0.5s;
+        -webkit-transition:border-color 0.5s;
+        -moz-transition:border-color 0.5s;
+        -o-transition:border-color 0.5s;
+        -ms-transition:border-color 0.5s;
+        position:relative;
+        &:hover{
+          border-color:#98D361;
+        }
+      }
+      input[type="submit"]{
+        border-top-right-radius: 3em;
+        border-bottom-right-radius: 3em;
+        -webkit-border-top-right-radius: 3em;
+        -webkit-border-bottom-right-radius: 3em;
+        -moz-border-top-right-radius: 3em;
+        -moz-border-bottom-right-radius: 3em;
+        -o-border-top-right-radius: 3em;
+        -o-border-bottom-right-radius: 3em;
+        -ms-border-top-right-radius: 3em;
+        -ms-border-bottom-right-radius: 3em;
+        background: #98D361;
+        padding: 0.72em 2em;
+        color: #FFF;
+        text-transform: uppercase;
+        border: none;
+        font-size: 1.3em;
+        outline: none;
+        position: absolute;
+        right: 11%;
+        transition:0.5s all;
+        -webkit-transition:0.5s all;
+        -moz-transition:0.5s all;
+        -o-transition:0.5s all;
+        -ms-transition:0.5s all;
+        &:hover{
+          background:#A9AFAF;
+        }
+      }
+    }
+  }
+  .social-icons{
+    text-align: center;
+    padding: 3em 0 2em;
+    ul{
+      margin: 0;
+      padding: 0;
+      @include clearfix();
+      li{
+        list-style: none;
+        display: inline-block;
+        margin: 1em;
+        span{
+          color: #A9AFAF;
+          font-size: 2em;
+          &:hover{
+            color: #c9cfcf;
+          }
+        }
+      }
+    }
+  }
+}
