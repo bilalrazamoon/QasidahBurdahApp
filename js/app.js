@@ -2,6 +2,7 @@ angular.module('app', [])
     .run(function ($rootScope) {
         $rootScope.appName="Qasidah Burdah";
         $rootScope.appVersion="1.0";
+        $rootScope.year=new Date().getUTCFullYear();
         $rootScope.features=[
             {title:"Beautiful, modern design",desc:"Duis bibendum diam non erat facilaisis tincidunt.",icon:"fa-mobile-phone"},
             {title:"Beautiful, modern design",desc:"Duis bibendum diam non erat facilaisis tincidunt.",icon:"fa-mobile-phone"},
