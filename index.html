@@ -1,30 +1,31 @@
 <!DOCTYPE HTML>
 <html ng-app="app">
 <head>
-    <title>Qasidah Burdah App</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Qasidah Burdah App</title>
+    <meta name="description" content="Qasidah Burdah is an ode of praise for The Beloved Prophet Muhammad composed by the eminent Sufi, 'Imam al-Busiri'. In this app, you can Read and listen Qasidah Burdah..." />
+    <meta name="keywords" content="android,qasidah,qasidah burdah,al-qasidah,poem,muhammad,naat" />
+    <meta name="author" content="Bilal Raza" />
+
+    <meta property="og:title" content="Qasidah Burdah App" />
+    <meta property="og:description" content="Qasidah Burdah is an ode of praise for The Beloved Prophet Muhammad composed by the eminent Sufi, 'Imam al-Busiri'. In this app, you can Read and listen Qasidah Burdah..." />
+    <meta property="og:url" content="http://hafizbilal112.github.io/QasidahBurdahApp" />
+    <meta property="og:image" content="http://hafizbilal112.github.io/QasidahBurdahApp/img/icon.png" />
+
+    <meta property="twitter:title" content="Qasidah Burdah App" />
+    <meta property="twitter:description" content="Qasidah Burdah is an ode of praise for The Beloved Prophet Muhammad composed by the eminent Sufi, 'Imam al-Busiri'. In this app, you can Read and listen Qasidah Burdah..." />
+    <meta property="twitter:url" content="http://hafizbilal112.github.io/QasidahBurdahApp" />
+    <meta property="twitter:image" content="http://hafizbilal112.github.io/QasidahBurdahApp/img/icon.png" />
+
     <link href="css/app.css" rel='stylesheet' type='text/css'/>
-    <link href="css/style.css" rel='stylesheet' type='text/css'/>
-    <link href="css/owl.carousel.css" rel='stylesheet' type='text/css'/>
-    <!-- Custom Theme files -->
-    <script type="application/x-javascript">
-        /*addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }*/
-    </script>
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="js/vendor.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
-    <script type="text/javascript">
-        jQuery(document).ready(function ($) {
-            $(".scroll").click(function (event) {
-                event.preventDefault();
-                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
-            });
-        });
-    </script>
 </head>
 <body>
-<div class="container">
-    <div class="header">
+<div class="header">
+    <div class="container">
         <div class="col-md-5 header-left">
             <div class="marvel-device nexus5">
                 <div class="top-bar"></div>
@@ -32,50 +33,59 @@
                 <div class="volume"></div>
                 <div class="camera"></div>
                 <div class="screen">
-                    <div id="owl-demo" class="owl-carousel" slider>
-                        <div class="item">
-                            <img src="images/screens/1.png" title="name"/>
-                        </div>
-                        <div class="item">
-                            <img src="images/screens/2.png" title="name"/>
-                        </div>
-                        <div class="item">
-                            <img src="images/screens/3.png" title="name"/>
-                        </div>
+                    <div id="owl-demo" class="owl-carousel" slider="{items:1,loop:true,autoplay:true,autoplayTimeout:2000,autoplayHoverPause:true}">
+                        <div class="item"><img src="img/screens/0.png"/></div>
+                        <div class="item"><img src="img/screens/1.png"/></div>
+                        <div class="item"><img src="img/screens/2.png"/></div>
+                        <div class="item"><img src="img/screens/3.png"/></div>
+                        <div class="item"><img src="img/screens/4.png"/></div>
+                        <div class="item"><img src="img/screens/5.png"/></div>
+                        <div class="item"><img src="img/screens/6.png"/></div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-md-7 header-right">
-            <a href="#">
-                <img src="images/icon.png" title="value"/>
-                {{appName}}
-            </a>
-
-            <p>Read and Listen Qasidah Burdah to ....</p>
-            <div class="cs">Coming Soon! for Android <span class="fa fa-android"></span></div>
+            <div class="block">
+                <img src="img/icon.png" title="{{appName}}"/>
+                <h1>{{appName}}</h1>
+            </div>
+            <p>
+                Qasidah Burdah (Poem of the Mantle) is an ode of praise for The Beloved
+                Prophet Muhammad composed by the eminent Sufi, "Imam al-Busiri"
+                <br/>
+                In this app, you can Read and listen Qasidah Burdah...
+            </p>
+            <form name="form" ng-submit="submit()">
+                <h2>Get Notified of any updates!</h2>
+                <div class="input-group">
+                    <input type="email" name="email" class="form-control" placeholder="Your email address" ng-model="email" ng-required="true">
+                    <span class="input-group-btn">
+                        <button class="btn" type="submit" ng-disabled="!form.$dirty">Submit</button>
+                    </span>
+                </div>
+                <small class="text-info" ng-bind="info"></small>
+            </form>
         </div>
     </div>
 </div>
-
-<div class="fea-grids">
+<!--<div class="fea-grids">
     <div class="container">
-        <div class="col-md-6 fea-grids-left">
+        <div class="col-md-6">
             <div id="owl-demo1" class="owl-carousel" slider>
                 <div class="item">
-                    <img src="images/divice-screen.png" title="name"/>
+                    <img src="img/screen1.png" title="name"/>
                 </div>
                 <div class="item">
-                    <img src="images/divice-screen.png" title="name"/>
+                    <img src="img/screen1.png" title="name"/>
                 </div>
                 <div class="item">
-                    <img src="images/divice-screen.png" title="name"/>
+                    <img src="img/screen1.png" title="name"/>
                 </div>
             </div>
         </div>
-        <div class="col-md-6 fea-grids-left">
+        <div class="col-md-6">
             <h3>Features available with Qasidah Burdah App</h3>
-
             <div class="fea-grids-left-grids">
                 <div class="fea-grids-left-grid" ng-repeat="f in features">
                     <div class="fea-grids-left-grid-left">
@@ -89,42 +99,19 @@
             </div>
         </div>
     </div>
-</div>
-
-<div class="notify">
-    <div class="container">
-        <div class="notify-grid">
-            <i class="fa fa-envelope-o"></i>
-            <h3>Get Notified of any updates!</h3>
-            <p>Subscribe to our newsletter to be notified about new version release</p>
-
-            <form>
-                <input type="text" class="text" value="Your email address" onfocus="this.value = '';"
-                       onblur="if (this.value == '') {this.value = 'Your email address';}">
-                <input type="submit" value="Submit"/>
-            </form>
-        </div>
-    </div>
-</div>
+</div>-->
 <div class="social-icons">
     <div class="container">
         <ul>
-            <li><a href="#" target="_blank"><span class="fa fa-facebook"></span></a></li>
-            <li><a href="#" target="_blank"><span class="fa fa-twitter"></span></a></li>
-            <li><a href="#" target="_blank"><span class="fa fa-google-plus"></span></a></li>
+            <li><a href="http://facebook.com/QasidahBurdahApp" target="_blank"><span class="fa fa-facebook"></span></a></li>
+            <li><a href="http://twitter.com/qasidahburdahap" target="_blank"><span class="fa fa-twitter"></span></a></li>
+            <li><a href="http://plus.google.com/qaidahburdahapp" target="_blank"><span class="fa fa-google-plus"></span></a></li>
         </ul>
     </div>
     <div class="footer-links">
         Copyright &copy; {{year}} Qasidah Burdah App
     </div>
 </div>
-<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-<!---- container ---->
-<script type="text/javascript">
-    $(document).ready(function() {
-     $().UItoTop({ easingType: 'easeOutQuart' });
-     });
-</script>
 </body>
 </html>
 
