@@ -8548,47 +8548,71 @@ html, body {
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all; }
-  html .owl-carousel .item, body .owl-carousel .item {
-    margin: 3px; }
-    html .owl-carousel .item img, body .owl-carousel .item img {
-      width: 100%;
-      height: auto; }
-  html .owl-controls .owl-buttons div, body .owl-controls .owl-buttons div {
-    color: #98D361;
-    display: inline-block;
-    zoom: 1;
-    margin: 5px;
-    padding: 3px 10px;
-    font-size: 12px;
-    width: 13px;
-    height: 17px; }
+  html .owl-controls, body .owl-controls {
+    display: none; }
   html .header, body .header {
-    padding: 3em 0; }
+    padding: 3em 0;
+    background-image: url(../img/banner3.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat; }
     html .header:before, html .header:after, body .header:before, body .header:after {
       content: " ";
       display: table; }
     html .header:after, body .header:after {
       clear: both; }
     html .header .header-right, body .header .header-right {
-      margin-top: 8em; }
+      margin-top: 5em; }
+      html .header .header-right .block, body .header .header-right .block {
+        padding: 20px 0 20px 110px;
+        height: 100px;
+        position: relative; }
+        html .header .header-right .block img, body .header .header-right .block img {
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 100px; }
+        html .header .header-right .block h1, body .header .header-right .block h1 {
+          font-size: 3em;
+          color: #ffffff;
+          margin: 0; }
       html .header .header-right p, body .header .header-right p {
-        color: #B9B9B9;
+        color: #ffffff;
         font-size: 1.6em;
         font-weight: 400;
-        margin: 4em 0 2em; }
-      html .header .header-right a, body .header .header-right a {
-        font-size: 3em;
-        color: #aaaaaa;
-        text-decoration: none; }
-      html .header .header-right .cs, body .header .header-right .cs {
-        font-size: 2em; }
-        html .header .header-right .cs .fa, body .header .header-right .cs .fa {
-          color: green; }
+        margin: 3em 0 1.5em; }
+      html .header .header-right form h2, body .header .header-right form h2 {
+        color: #FFFFff;
+        padding: 10px 0; }
+      html .header .header-right form input, html .header .header-right form button, body .header .header-right form input, body .header .header-right form button {
+        outline: none !important;
+        box-shadow: none !important;
+        border: none !important;
+        height: 50px; }
+      html .header .header-right form input, body .header .header-right form input {
+        font-size: 1em;
+        color: #727272; }
+      html .header .header-right form .btn, body .header .header-right form .btn {
+        background-color: #98D361;
+        color: #FFFFff;
+        font-size: 18px;
+        font-weight: 400; }
+      html .header .header-right form small, body .header .header-right form small {
+        padding: 10px 0;
+        display: inline-block;
+        font-size: 1em;
+        color: #fff; }
     html .header .header-left, body .header .header-left {
-      margin: auto; }
+      margin: auto;
+      text-align: center; }
   html .fea-grids, body .fea-grids {
     padding: 5em 0 4em;
     background: #F8F8F9; }
+    html .fea-grids .container .col-md-6:last-child h3, body .fea-grids .container .col-md-6:last-child h3 {
+      color: #727272;
+      font-size: 2em;
+      font-weight: 700;
+      line-height: 1.5em; }
     html .fea-grids .fea-grids-left-grids, body .fea-grids .fea-grids-left-grids {
       margin: 1.5em 0; }
       html .fea-grids .fea-grids-left-grids .fea-grids-left-grid, body .fea-grids .fea-grids-left-grids .fea-grids-left-grid {
@@ -8600,84 +8624,23 @@ html, body {
           clear: both; }
         html .fea-grids .fea-grids-left-grids .fea-grids-left-grid .fea-grids-left-grid-left, body .fea-grids .fea-grids-left-grids .fea-grids-left-grid .fea-grids-left-grid-left {
           float: left;
-          width: 10%;
-          margin-top: 1em; }
+          width: 10%; }
           html .fea-grids .fea-grids-left-grids .fea-grids-left-grid .fea-grids-left-grid-left .fa, body .fea-grids .fea-grids-left-grids .fea-grids-left-grid .fea-grids-left-grid-left .fa {
+            padding-top: 0.2em;
             color: #b8b8b8;
             font-size: 3.5em;
             text-align: center;
             display: block; }
-  html .notify, body .notify {
-    background: #F3F5F5;
-    padding: 4em 0 5em; }
-    html .notify .notify-grid, body .notify .notify-grid {
-      text-align: center;
-      position: relative; }
-      html .notify .notify-grid .fa, body .notify .notify-grid .fa {
-        color: #98D361;
-        font-size: 3em; }
-      html .notify .notify-grid h3, body .notify .notify-grid h3 {
-        color: #8C9494;
-        font-size: 2em;
-        font-weight: 400; }
-      html .notify .notify-grid p, body .notify .notify-grid p {
-        color: #686868;
-        font-size: 1.4em;
-        font-weight: 300; }
-      html .notify .notify-grid form, body .notify .notify-grid form {
-        margin-top: 2em; }
-      html .notify .notify-grid input[type="text"], body .notify .notify-grid input[type="text"] {
-        width: 70%;
-        padding: 0.9em;
-        border: 2px solid #EEE;
-        font-size: 1.1em;
-        color: #8C9494;
-        border-top-left-radius: 3em;
-        border-bottom-left-radius: 3em;
-        -webkit-border-top-left-radius: 3em;
-        -webkit-border-bottom-left-radius: 3em;
-        -moz-border-top-left-radius: 3em;
-        -moz-border-bottom-left-radius: 3em;
-        -o-border-top-left-radius: 3em;
-        -o-border-bottom-left-radius: 3em;
-        -ms-border-top-left-radius: 3em;
-        -ms-border-bottom-left-radius: 3em;
-        outline: none;
-        transition: border-color 0.5s;
-        -webkit-transition: border-color 0.5s;
-        -moz-transition: border-color 0.5s;
-        -o-transition: border-color 0.5s;
-        -ms-transition: border-color 0.5s;
-        position: relative; }
-        html .notify .notify-grid input[type="text"]:hover, body .notify .notify-grid input[type="text"]:hover {
-          border-color: #98D361; }
-      html .notify .notify-grid input[type="submit"], body .notify .notify-grid input[type="submit"] {
-        border-top-right-radius: 3em;
-        border-bottom-right-radius: 3em;
-        -webkit-border-top-right-radius: 3em;
-        -webkit-border-bottom-right-radius: 3em;
-        -moz-border-top-right-radius: 3em;
-        -moz-border-bottom-right-radius: 3em;
-        -o-border-top-right-radius: 3em;
-        -o-border-bottom-right-radius: 3em;
-        -ms-border-top-right-radius: 3em;
-        -ms-border-bottom-right-radius: 3em;
-        background: #98D361;
-        padding: 0.72em 2em;
-        color: #FFF;
-        text-transform: uppercase;
-        border: none;
-        font-size: 1.3em;
-        outline: none;
-        position: absolute;
-        right: 11%;
-        transition: 0.5s all;
-        -webkit-transition: 0.5s all;
-        -moz-transition: 0.5s all;
-        -o-transition: 0.5s all;
-        -ms-transition: 0.5s all; }
-        html .notify .notify-grid input[type="submit"]:hover, body .notify .notify-grid input[type="submit"]:hover {
-          background: #A9AFAF; }
+        html .fea-grids .fea-grids-left-grids .fea-grids-left-grid .fea-grids-left-grid-right h4, body .fea-grids .fea-grids-left-grids .fea-grids-left-grid .fea-grids-left-grid-right h4 {
+          color: #98D361;
+          font-weight: 400;
+          font-size: 1.5em;
+          margin-bottom: 0.2em; }
+        html .fea-grids .fea-grids-left-grids .fea-grids-left-grid .fea-grids-left-grid-right p, body .fea-grids .fea-grids-left-grids .fea-grids-left-grid .fea-grids-left-grid-right p {
+          color: #686868;
+          font-weight: 300;
+          font-size: 1.2em;
+          margin: 0; }
   html .social-icons, body .social-icons {
     text-align: center;
     padding: 3em 0 2em; }
