@@ -1,0 +1,155 @@
+{
+  "results": [
+    {
+      "id": "NYo6cuK864",
+      "img": "http://hafizbilal112.github.io/QasidahBurdahApp/artists/Owais-Raza-Qadri.jpg",
+      "name": "Owais Raza Qadri",
+      "duration": "05:55",
+      "src": "http://hafizbilal112.github.io/QasidahBurdahApp/audios/owaisrazaqadri.mp3"
+    },
+    {
+      "id": "dkOYcnGf7B",
+      "img": "http://hafizbilal112.github.io/QasidahBurdahApp/artists/hajibilalattari.jpg",
+      "name": "Haji Bilal Attari",
+      "duration": "04:22",
+      "src": "http://hafizbilal112.github.io/QasidahBurdahApp/audios/hajibilalattari.mp3"
+    },
+    {
+      "id": "cmMVGF7PyL",
+      "img": "http://hafizbilal112.github.io/QasidahBurdahApp/artists/hafizbilalqadri.jpg",
+      "name": "Hafiz Bilal Qadri",
+      "duration": "1 - 10",
+      "data": [
+        {
+          "id": "cmMVGF7PyL0",
+          "name": "01 Fasal - Hafiz Bilal Qadri",
+          "title": "01 Fasal",
+          "duration": "09:13",
+          "img": "http://hafizbilal112.github.io/QasidahBurdahApp/artists/hafizbilalqadri.jpg",
+          "src": "http://hafizbilal112.github.io/QasidahBurdahApp/audios/hafizbilalqadri/01-Fasal.mp3"
+        },
+        {
+          "id": "cmMVGF7PyL1",
+          "name": "02 Fasal - Hafiz Bilal Qadri",
+          "title": "02 Fasal",
+          "duration": "06:25",
+          "img": "http://hafizbilal112.github.io/QasidahBurdahApp/artists/hafizbilalqadri.jpg",
+          "src": "http://hafizbilal112.github.io/QasidahBurdahApp/audios/hafizbilalqadri/02-Fasal.mp3"
+        },
+        {
+          "id": "cmMVGF7PyL2",
+          "name": "03 Fasal - Hafiz Bilal Qadri",
+          "title": "03 Fasal",
+          "duration": "14:03",
+          "img": "http://hafizbilal112.github.io/QasidahBurdahApp/artists/hafizbilalqadri.jpg",
+          "src": "http://hafizbilal112.github.io/QasidahBurdahApp/audios/hafizbilalqadri/03-Fasal.mp3"
+        },
+        {
+          "id": "cmMVGF7PyL3",
+          "name": "04 Fasal - Hafiz Bilal Qadri",
+          "title": "04 Fasal",
+          "duration": "07:17",
+          "img": "http://hafizbilal112.github.io/QasidahBurdahApp/artists/hafizbilalqadri.jpg",
+          "src": "http://hafizbilal112.github.io/QasidahBurdahApp/audios/hafizbilalqadri/04-Fasal.mp3"
+        },
+        {
+          "id": "cmMVGF7PyL4",
+          "name": "05 Fasal - Hafiz Bilal Qadri",
+          "title": "05 Fasal",
+          "duration": "08:25",
+          "img": "http://hafizbilal112.github.io/QasidahBurdahApp/artists/hafizbilalqadri.jpg",
+          "src": "http://hafizbilal112.github.io/QasidahBurdahApp/audios/hafizbilalqadri/05-Fasal.mp3"
+        },
+        {
+          "id": "cmMVGF7PyL5",
+          "name": "06 Fasal - Hafiz Bilal Qadri",
+          "title": "06 Fasal",
+          "duration": "07:02",
+          "img": "http://hafizbilal112.github.io/QasidahBurdahApp/artists/hafizbilalqadri.jpg",
+          "src": "http://hafizbilal112.github.io/QasidahBurdahApp/audios/hafizbilalqadri/06-Fasal.mp3"
+        },
+        {
+          "id": "cmMVGF7PyL6",
+          "name": "07 Fasal - Hafiz Bilal Qadri",
+          "title": "07 Fasal",
+          "duration": "04:59",
+          "img": "http://hafizbilal112.github.io/QasidahBurdahApp/artists/hafizbilalqadri.jpg",
+          "src": "http://hafizbilal112.github.io/QasidahBurdahApp/audios/hafizbilalqadri/07-Fasal.mp3"
+        },
+        {
+          "id": "cmMVGF7PyL7",
+          "name": "01 Fasal - Hafiz Bilal Qadri",
+          "title": "01 Fasal",
+          "duration": "06:42",
+          "img": "http://hafizbilal112.github.io/QasidahBurdahApp/artists/hafizbilalqadri.jpg",
+          "src": "http://hafizbilal112.github.io/QasidahBurdahApp/audios/hafizbilalqadri/08-Fasal.mp3"
+        },
+        {
+          "id": "cmMVGF7PyL8",
+          "name": "01 Fasal - Hafiz Bilal Qadri",
+          "title": "01 Fasal",
+          "duration": "08:13",
+          "img": "http://hafizbilal112.github.io/QasidahBurdahApp/artists/hafizbilalqadri.jpg",
+          "src": "http://hafizbilal112.github.io/QasidahBurdahApp/audios/hafizbilalqadri/09-Fasal.mp3"
+        },
+        {
+          "id": "cmMVGF7PyL9",
+          "name": "10 Fasal - Hafiz Bilal Qadri",
+          "title": "10 Fasal",
+          "duration": "10:42",
+          "img": "http://hafizbilal112.github.io/QasidahBurdahApp/artists/hafizbilalqadri.jpg",
+          "src": "http://hafizbilal112.github.io/QasidahBurdahApp/audios/hafizbilalqadri/10-Fasal.mp3"
+        }
+      ]
+    },
+    {
+      "id": "4tnT4MsGkC",
+      "img": "http://hafizbilal112.github.io/QasidahBurdahApp/artists/sami-yusuf.jpg",
+      "name": "Sami Yusuf",
+      "duration": "04:40",
+      "src": "http://hafizbilal112.github.io/QasidahBurdahApp/audios/samiyusuf.mp3"
+    },
+    {
+      "id": "66PGihWFKP",
+      "img": "http://hafizbilal112.github.io/QasidahBurdahApp/artists/hajiimransheikh.jpg",
+      "name": "Imran Sheikh Attari",
+      "duration": "04:49",
+      "src": "http://hafizbilal112.github.io/QasidahBurdahApp/audios/imransheikhattari.mp3"
+    },
+    {
+      "id": "CLr8jF1OSD",
+      "img": "http://hafizbilal112.github.io/QasidahBurdahApp/artists/hafiztahirqadri.jpg",
+      "name": "Hafiz Tahir Qadri",
+      "duration": "06:42",
+      "src": "http://hafizbilal112.github.io/QasidahBurdahApp/audios/hafiztahirqadri.mp3"
+    },
+    {
+      "id": "hPrjczHH7e",
+      "img": "http://hafizbilal112.github.io/QasidahBurdahApp/artists/Aamir-Liaquat-Hussain.jpg",
+      "name": "Aamir Liaquat Hussain",
+      "duration": "04:38",
+      "src": "http://hafizbilal112.github.io/QasidahBurdahApp/audios/amirliaqathussain.mp3"
+    },
+    {
+      "id": "MXr9KkeIze",
+      "img": "http://hafizbilal112.github.io/QasidahBurdahApp/artists/hafizahmedraza.jpg",
+      "name": "Hafiz Ahmed Raza",
+      "duration": "01:27",
+      "src": "http://hafizbilal112.github.io/QasidahBurdahApp/audios/hafizahmedraza.mp3"
+    },
+    {
+      "id": "lUQcq42nGn",
+      "img": "http://hafizbilal112.github.io/QasidahBurdahApp/artists/Mehmud-ul_Hasan.jpg",
+      "name": "Mehmud ul Hassan",
+      "duration": "08:26",
+      "src": "http://hafizbilal112.github.io/QasidahBurdahApp/audios/mehmudulhasanashrafi.mp3"
+    },
+    {
+      "id": "B2RhiafC1r",
+      "img": "http://hafizbilal112.github.io/QasidahBurdahApp/artists/hajimushtaqqadri.jpg",
+      "name": "Haji Mushtaq Qadri",
+      "duration": "31:16",
+      "src": "http://hafizbilal112.github.io/QasidahBurdahApp/audios/mushtaqqadri.mp3"
+    }
+  ]
+}
