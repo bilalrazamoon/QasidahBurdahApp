@@ -1,14 +1,12 @@
 //bootstrap
-@import "./bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 //font-awesome
-@import "./bower_components/components-font-awesome/scss/font-awesome";
+@import "../bower_components/components-font-awesome/scss/font-awesome";
 //owl-slider
-@import "./bower_components/owl.carousel/src/scss/owl.carousel.scss";
-@import "./bower_components/owl.carousel/src/scss/owl.animate.scss";
-@import "./bower_components/owl.carousel/src/scss/owl.theme.default.scss";
-@import "./bower_components/owl.carousel/src/scss/theme.scss";
+@import "../bower_components/owl.carousel/src/scss/owl.carousel.scss";
+@import "../bower_components/owl.carousel/src/scss/owl.theme.default.scss";
 //devices
-@import "./bower_components/devices.css/assets/scss/devices.scss";
+@import "../bower_components/devices.css/assets/scss/devices.scss";
 
 //app
 html, body {
@@ -58,11 +56,14 @@ html, body {
         margin: 3em 0 1.5em;
       }
       .download-link {
-        display: block;
-        width: 330px;
+        display: inline-block;
+        max-width: 280px;
         height: auto;
         img {
           width: 100%;
+        }
+        &:not(:last-child) {
+          margin-right: 20px;
         }
       }
       form {
@@ -150,7 +151,7 @@ html, body {
       }
     }
   }
-  .notify{
+  .notify {
     background: #F3F5F5;
     padding: 4em 0 5em;
   }
