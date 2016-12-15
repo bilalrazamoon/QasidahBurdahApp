@@ -9688,7 +9688,8 @@ html, body {
         html .header .header-right .download-link img, body .header .header-right .download-link img {
           width: 100%; }
         html .header .header-right .download-link:not(:last-child), body .header .header-right .download-link:not(:last-child) {
-          margin-right: 20px; }
+          margin-right: 20px;
+          margin-bottom: 20px; }
       html .header .header-right form h2, body .header .header-right form h2 {
         color: #FFFFff;
         padding: 10px 0; }
