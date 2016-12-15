@@ -35,12 +35,12 @@ gulp.task('serve', ['sass'], function () {
     gulp.watch("./js/*.js").on('change', reload);
 });
 
-gulp.task('copyfonts', function() {
+gulp.task('copyfonts', function () {
     gulp.src('./bower_components/components-font-awesome/fonts/**/*.{otf,ttf,woff,eof,svg}')
         .pipe(gulp.dest('./fonts'));
 });
 
-gulp.task('lib', function() {
+gulp.task('lib', function () {
     return gulp.src(paths.lib)
         .pipe(concat('vendor.js'))
         .pipe(gulp.dest('./js'))
@@ -51,7 +51,7 @@ gulp.task('lib', function() {
 
 gulp.task('sass', function (done) {
     gulp.src('./scss/app.scss')
-        .pipe(sass({errLogToConsole: true}))
+        .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest('./css/'))
         .pipe(reload({stream: true}))
         .pipe(minifyCss({
